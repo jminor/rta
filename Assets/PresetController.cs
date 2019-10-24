@@ -87,6 +87,8 @@ public class PresetController : MonoBehaviour
             m_presets.Add(p);
             Debug.Log(text);
         } while (text != null);
+
+        Next();
     }
 
     public string presetFileName()

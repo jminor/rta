@@ -13,6 +13,7 @@ public class MultibufferParticles : MonoBehaviour
 	[SerializeField]
 	private int particleCount = 10000;
 	public float Particles { get{return particleCount;} set{particleCount = (int)value * 1000; ResetBuffers();} }
+	[SerializeField]
 	private float mPointSize = 3;
 	public float PointSize 
 	{ 
